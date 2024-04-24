@@ -1,0 +1,444 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 15720 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/emili/OneDrive/Desktop/UDLA/Semestre 6/Desarrollo de Videojuegos/Battle City
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60232
+Successfully changed project path to: C:/Users/emili/OneDrive/Desktop/UDLA/Semestre 6/Desarrollo de Videojuegos/Battle City
+C:/Users/emili/OneDrive/Desktop/UDLA/Semestre 6/Desarrollo de Videojuegos/Battle City
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7048] Host "[IP] 172.29.192.1 [Port] 0 [Flags] 2 [Guid] 2167363129 [EditorId] 2167363129 [Version] 1048832 [Id] WindowsEditor(7,Emilio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7048] Host "[IP] 172.29.192.1 [Port] 0 [Flags] 2 [Guid] 2167363129 [EditorId] 2167363129 [Version] 1048832 [Id] WindowsEditor(7,Emilio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 14.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emili/OneDrive/Desktop/UDLA/Semestre 6/Desarrollo de Videojuegos/Battle City/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7860 MB
+    Driver:   31.0.21910.1006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011564 seconds.
+- Loaded All Assemblies, in  0.482 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.408 seconds
+Domain Reload Profiling: 887ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.876 seconds
+Refreshing native plugins compatible for Editor in 5.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.825 seconds
+Domain Reload Profiling: 1697ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (538ms)
+		LoadAssemblies (421ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 5.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 3574.
+Memory consumption went from 122.7 MB to 122.6 MB.
+Total: 4.663100 ms (FindLiveObjects: 0.335400 ms CreateObjectMapping: 0.208300 ms MarkObjects: 3.931500 ms  DeleteObjects: 0.185200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.691 seconds
+Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.563 seconds
+Domain Reload Profiling: 2249ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (420ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1563ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3575.
+Memory consumption went from 123.3 MB to 123.2 MB.
+Total: 3.351600 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.891400 ms  DeleteObjects: 0.058600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 574922.374594 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Materials/Bullet_045.mat
+  artifactKey: Guid(45bc4040e10495a4f8b19ec15d2c1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Materials/Bullet_045.mat using Guid(45bc4040e10495a4f8b19ec15d2c1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d134ff54061cc5f1c25747e5116149') in 0.970357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Shell_LOD0.FBX
+  artifactKey: Guid(cf069076716d43e429b8e45f1b7cc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Shell_LOD0.FBX using Guid(cf069076716d43e429b8e45f1b7cc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86bc5650a0486cc1b5619a8a519dfef') in 0.074698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet762_LowPoly.FBX
+  artifactKey: Guid(9a982ad9ff3ed3742be077d774f8dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet762_LowPoly.FBX using Guid(9a982ad9ff3ed3742be077d774f8dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108e60c7255387e103b431436508a5b1') in 0.124521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet_LOD0.FBX
+  artifactKey: Guid(0cf8d58a4e852cf4a9eb345d1dd540ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet_LOD0.FBX using Guid(0cf8d58a4e852cf4a9eb345d1dd540ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ab374d042a1b7d1625a0ac259b3e8b') in 0.044058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 9x19/Mesh/Materials/Shell.mat
+  artifactKey: Guid(f26145e9206d16340b5ebd3c0ff70300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 9x19/Mesh/Materials/Shell.mat using Guid(f26145e9206d16340b5ebd3c0ff70300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850496c2bce961a1572380729022296d') in 0.232267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Prefabs/Bullet (LP).prefab
+  artifactKey: Guid(9ee4071733a84784d87b676421bc49c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Prefabs/Bullet (LP).prefab using Guid(9ee4071733a84784d87b676421bc49c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854a5651ea71f1649980764674ee4bb2') in 0.034184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc) LP.prefab
+  artifactKey: Guid(dbe398fbe3adebc4484ea50382e51ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc) LP.prefab using Guid(dbe398fbe3adebc4484ea50382e51ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9d6b39545995a215f49ba33f65373f') in 0.065833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-Copper_v2.prefab
+  artifactKey: Guid(c8fd62ec06a546646878a10bd648ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-Copper_v2.prefab using Guid(c8fd62ec06a546646878a10bd648ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0de564036ef9ecbc24790a68d1ce75') in 0.045130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Shell (LP).FBX
+  artifactKey: Guid(958601ab365f54044a07f981f166d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Shell (LP).FBX using Guid(958601ab365f54044a07f981f166d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd02404fe57d6a86d22b1d0fb0a28463') in 0.044182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet (HQ).FBX
+  artifactKey: Guid(ef4c0855476ff6e4d8a68efb40d51045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet (HQ).FBX using Guid(ef4c0855476ff6e4d8a68efb40d51045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682f4c3bdb0f8fd2cc756cb92f191625') in 0.055519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Prefabs/Shell (LP).prefab
+  artifactKey: Guid(da88a394786f769498081c636741b3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Prefabs/Shell (LP).prefab using Guid(da88a394786f769498081c636741b3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dc07d21a7e758479b5aba677199006') in 0.036320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Shell_LOD0.FBX
+  artifactKey: Guid(6697edf4e1b576f40a940f380637cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Shell_LOD0.FBX using Guid(6697edf4e1b576f40a940f380637cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb168a29e06804f93c5dbe67783aa5c') in 0.050947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet (LP).FBX
+  artifactKey: Guid(d0e5f6e1622f7d34c9de65eaf816afd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet (LP).FBX using Guid(d0e5f6e1622f7d34c9de65eaf816afd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e40b28fca40f43623f3a9d7bc248080') in 0.036016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Shell_LOD0.FBX
+  artifactKey: Guid(c5f441d0513b476449d2f07a4d9a0fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Shell_LOD0.FBX using Guid(c5f441d0513b476449d2f07a4d9a0fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adf12dd1e1288a9c6d831f8b80f0175') in 0.036355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Prefabs/Bullet 0.45 (HQ).prefab
+  artifactKey: Guid(c08d8e39e38b0bc46b2cade287bd2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Prefabs/Bullet 0.45 (HQ).prefab using Guid(c08d8e39e38b0bc46b2cade287bd2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1286337fcbac9d4cf6a37242184249f9') in 0.032542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Shell.FBX
+  artifactKey: Guid(912f604d71a97be4099d56c9e7e99c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Shell.FBX using Guid(912f604d71a97be4099d56c9e7e99c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2207ff6ff11d3370648203a72355b77a') in 0.047277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Shell-DarkZinc.prefab
+  artifactKey: Guid(062c6fc650067834abcbfd3417e3940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Shell-DarkZinc.prefab using Guid(062c6fc650067834abcbfd3417e3940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae6968b9a0fa9a41c401a2b293dee21') in 0.038252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc) HQ.prefab
+  artifactKey: Guid(14e8966d9de08fb4ea1cb7d5e9ead89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc) HQ.prefab using Guid(14e8966d9de08fb4ea1cb7d5e9ead89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48843a7a447021c001d8bbea8de7c7c4') in 0.062506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet_045 (LP).FBX
+  artifactKey: Guid(4f548ea9328f6224b9a422848318b07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet_045 (LP).FBX using Guid(4f548ea9328f6224b9a422848318b07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8903f11272d2c1aa6d279a87669f29') in 0.056653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Shell-Copper.prefab
+  artifactKey: Guid(0a138e478044fd94eb3af2f93e075513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Shell-Copper.prefab using Guid(0a138e478044fd94eb3af2f93e075513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96de63bc2fb5e27941071aead1a523b9') in 0.032085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_045 (HQ).FBX
+  artifactKey: Guid(70a019c0fdd9bfa46986ad6696e94a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_045 (HQ).FBX using Guid(70a019c0fdd9bfa46986ad6696e94a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4d1720aa75e452e1104ad2c6bf450c') in 0.058245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_045_LOD0.FBX
+  artifactKey: Guid(b63d27f6ab29dba41894c8305a3efd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_045_LOD0.FBX using Guid(b63d27f6ab29dba41894c8305a3efd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c9a6fcad69c50ed958b61d9bf6d183') in 0.059245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc+v2) HQ.prefab
+  artifactKey: Guid(881890da081606847a7cc72b5addce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc+v2) HQ.prefab using Guid(881890da081606847a7cc72b5addce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c340de24064d5e2e91ea943c9a6ae99') in 0.049468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 10.972364 seconds.
+  path: Assets/3D Models/Props/Ammunition/Ammunition/ReflectionProbe-0.exr
+  artifactKey: Guid(5be8808743fed8145896534c74020adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Ammunition/ReflectionProbe-0.exr using Guid(5be8808743fed8145896534c74020adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5385add0f643d4e1614b0859510bffe6') in 0.042585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
